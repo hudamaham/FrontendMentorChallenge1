@@ -1,0 +1,111 @@
+.btn-costumize{
+    border-radius:10px;
+   
+   
+}
+.btn-costumize:hover{
+    background-color: #f7f7f7;
+    color: black;
+    border: 1px solid black;
+}
+.btn-learn{
+    width: 150px;
+}
+.inner{
+padding: 0 60px;
+}
+.img-desktop{
+    width: 30%;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+  
+}
+.img-client-div {
+    width: 70%;
+}
+p{
+    width: 50%;
+}
+@media  only screen and  (max-width: 600px)  {
+    
+    .navbar-collapse {
+        position: absolute;
+        z-index: 9;
+       top: 0;
+        background-color: rgba(0, 0, 0, 0.314);
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        left: 0;
+        overflow: hidden;
+
+    }
+    .navbar-toggler-btn {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        z-index:99;
+    }
+    .navbar-collapse ul {
+        position: relative;
+        
+        background-color: #f7f7f7;
+        width: 70%;
+        margin: 0;
+        left: 130px;
+        height: 20vh;
+padding: 0 10px;
+    }
+    .navbar-collapse div{
+        position: relative;
+        background-color: #f7f7f7;
+        width: 70%;
+        margin: 0;
+        left: 130px;
+        height: 80vh;
+        padding: 0 10px;
+        
+
+
+    }
+    .log-reg {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 5px;
+    }
+    .dropdown-menu{
+        background-color: #f7f7f7;
+        border: none;
+         
+    }
+    .dropdown-item {
+        justify-content: flex-start;
+    }
+    p{
+        width: 95%;
+    }
+    .inner{
+        padding: 0 6px;
+        }
+        .img-mobile{
+            height: 100vh;
+        }
+    .inner-info{
+        text-align: center;
+        align-items: center;
+
+    }
+    h1{
+        font-size: 45px;
+        font-weight: 700;
+      
+    }
+    .img-client-div{
+        width: 70%;
+    }
+    .img-client{
+        width: 25%;
+    }
+}
